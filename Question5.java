@@ -7,7 +7,7 @@ public class Question5 {
         try
         {   int count=0;
             double min=Double.MAX_VALUE;
-            double max=Double.MAX_VALUE;
+            double max=Double.MIN_VALUE;
             double Total=0;
             BufferedReader br = new BufferedReader(new FileReader("demoDataBase.csv"));
             while ((line = br.readLine()) != null)
