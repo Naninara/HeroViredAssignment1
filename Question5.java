@@ -3,8 +3,7 @@ import java.io.FileReader;
 public class Question5 {
     public static void main(String[] args)
     {
-        String line = "";
-        String splitBy = ",";
+        String line = ""; 
         try
         {   int count=0;
             double min=Double.MAX_VALUE;
