@@ -9,7 +9,7 @@ public class Question5 {
             double min=Double.MAX_VALUE;
             double max=Double.MIN_VALUE;
             double Total=0;
-            BufferedReader br = new BufferedReader(new FileReader("demoDataBase.csv"));
+            BufferedReader br = new BufferedReader(new FileReader("DemoText.csv"));
             while ((line = br.readLine()) != null)
             {
                 String[] Transaction = line.split(",");
